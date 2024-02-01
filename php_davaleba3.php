@@ -7,10 +7,10 @@
 </head>
 <body>
     <?php
-function myFunction($fname, $lname) {
-	echo $fname;
-}
- myFunction("zurab", "chubinidze");
+        function myFunction($fname, $lname) {
+            echo $fname;
+        }
+        myFunction("zurab", "chubinidze");
     ?>
 </body>
 </html>
