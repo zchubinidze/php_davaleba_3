@@ -3,14 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo "php დავალება3"; ?></title>
+    <title><?php echo "php function-3"; ?></title>
 </head>
 <body>
     <?php
-        function myFunction($fname, $lname) {
-            echo $fname;
+        function MyName(){
+            echo "zura";
         }
-        myFunction("zurab", "chubinidze");
+
+        function secondFunction(){
+            return MyName();
+        }
+
+        echo  secondFunction();
     ?>
 </body>
 </html>
